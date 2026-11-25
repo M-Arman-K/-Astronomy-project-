@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Contact Astronomy Explorer with your questions or feedback."
+    />
+    <title>Contact Us | Astronomy Explorer</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&family=Poppins:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <link rel="stylesheet" href="styel.css" />
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">Astronomy</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <div class="navbar-nav">
+              <a class="nav-link" href="index.html">Home</a>
+              <a class="nav-link" href="about.html">About</a>
+              <a class="nav-link" href="solar-system.html">Solar System</a>
+              <a class="nav-link" href="stars.html">Stars</a>
+              <a class="nav-link" href="gallery.html">Gallery</a>
+              <a class="nav-link" href="events.html">Events</a>
+              <a class="nav-link active" href="contact.html">Contact</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container">
+      <div class="hero text-center">
+        <h1>Contact Us</h1>
+      </div>
+
+      <section class="split">
+        <div class="w-100">
+          <p>
+            Have a question about astronomy, or feedback about this website?
+            Fill in the form below and we will get back to you as soon as
+            possible.
+          </p>
+
+          <div class="row g-4">
+            <div class="col-12 col-lg-7">
+              <div class="card h-100 mini-card">
+                <div class="card-body">
+                  <form action="#">
+                    <div class="mb-3">
+                      <label for="name" class="form-label">Full Name</label>
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="name"
+                        name="name"
+                        required
+                      />
+                    </div>
+                    <div class="mb-3">
+                      <label for="email" class="form-label">
+                        Email Address
+                      </label>
+                      <input
+                        type="email"
+                        class="form-control"
+                        id="email"
+                        name="email"
+                        required
+                      />
+                    </div>
+                    <div class="mb-3">
+                      <label for="subject" class="form-label">Subject</label>
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="subject"
+                        name="subject"
+                        required
+                      />
+                    </div>
+                    <div class="mb-3">
+                      <label for="message" class="form-label">Message</label>
+                      <textarea
+                        class="form-control"
+                        id="message"
+                        name="message"
+                        rows="5"
+                        required
+                      ></textarea>
+                    </div>
+                    <button  class="btn btn-warning">
+                      Send Message
+                    </button>
+                  </form>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 col-lg-5">
+              <div class="card h-100 mini-card">
+                <div class="card-body">
+                  <h5 class="card-title">Get In Touch</h5>
+                  <p class="card-text">
+                    <i class="fas fa-envelope text-warning"></i>
+                    Email: info@astronomy.com
+                  </p>
+                  <p class="card-text">
+                    <i class="fas fa-map-marker-alt text-warning"></i>
+                    Location: Karachi, Pakistan
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-grid">
+        <div>
+          <h4>Astronomy Explorer</h4>
+          <p>Explore the wonders of the universe.</p>
+        </div>
+        <div>
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="solar-system.html">Solar System</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Contact</h4>
+          <p>Email: info@astronomy.com</p>
+          <p>Karachi, Pakistan</p>
+        </div>
+        <div>
+          <h4>Follow Us</h4>
+          <a href="#"><i class="fab fa-facebook"></i> Facebook</a><br />
+          <a href="#"><i class="fab fa-instagram"></i> Instagram</a><br />
+          <a href="#"><i class="fab fa-youtube"></i> YouTube</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Astronomy Explorer. Images: NASA/ESA.</p>
+      </div>
+    </footer>
+    <script>
+      // Yeh code saare sections aur cards par ek saath animation laga dega
+      document.querySelectorAll("section, .card").forEach(function (element) {
+        element.setAttribute("data-aos", "fade-up");
+      });
+
+      // Iske baad AOS ko start karein
+      AOS.init({
+        duration: 30000, // Animation ki speed (1 second)
+        once: true, // Scroll karne par sirf ek baar animate ho
+      });
+    </script>
+      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

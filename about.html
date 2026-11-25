@@ -1,0 +1,447 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Explore planets, stars, galaxies and space events."
+    />
+    <title>Home | Astronomy Explorer</title>
+
+    <!-- Bootstrap + Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+
+    <!-- Google Fonts (Orbitron = headings, Poppins = body) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&family=Poppins:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- Our own CSS (must come last) -->
+    <link rel="stylesheet" href="styel.css" />
+  </head>
+
+  <body>
+    <!-- ===== Navbar ===== -->
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">Astronomy</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <div class="navbar-nav">
+              <!-- "active" sirf current page ke link par lagayein -->
+              <a class="nav-link" href="index.html">Home</a>
+              <a class="nav-link active" href="about.html">About</a>
+              <a class="nav-link" href="solar-system.html">Solar System</a>
+              <a class="nav-link" href="gallery.html">Gallery</a>
+              <a class="nav-link" href="events.html">Events</a>
+              <a class="nav-link" href="contact.html">Contact</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- ===== Main content ===== -->
+    <main class="container">
+      <div class="hero text-center">
+        <h1>Astronomy</h1>
+      </div>
+      <section class="split">
+        <div class="split-text">
+          <h1>Astronomy?</h1>
+          <p>
+            Astronomy is a natural science that focuses on studying celestial
+            objects—such as stars, planets, comets, nebulae, and galaxies—along
+            with all natural phenomena that originate outside the atmosphere of
+            Earth.
+          </p>
+        </div>
+        <div class="split-img">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9hLyx26mTxykyMWBsIqOqJRLlTnkcSpHxqcXJiAdz1Q&s=10"
+            alt="Astronomy"
+          />
+        </div>
+      </section>
+      <section class="split">
+        <h1>Astronomy vs Astrology</h1>
+        <div class="row">
+          <!-- Astronomy Card -->
+          <div class="col-sm-6 mb-3 mb-sm-0">
+            <div class="card">
+              <div class="card-body">
+                <h5
+                  class="card-title"
+                  style="
+                    color: var(--gold);
+                    font-family: &quot;Orbitron&quot;, sans-serif;
+                  "
+                >
+                  Astronomy
+                </h5>
+                <p class="card-text">
+                  Astronomy is the rigorous natural science that studies
+                  celestial objects and phenomena. It uses strict physics and
+                  mathematics to understand the birth, life, and death of stars.
+                  Astronomers utilize powerful tools like the James Webb
+                  Telescope to map distant galaxies. It breaks down the cosmic
+                  electromagnetic spectrum to observe radiation hidden from
+                  human eyes. The field relies on constant empirical testing,
+                  factual research, and peer-reviewed data. Every discovery must
+                  be backed by solid physics before it becomes universally
+                  accepted. It explains complex mysteries such as black holes,
+                  dark matter, and cosmic expansion. By investigating alien
+                  planetary systems, it tracks the chemical blocks of planetary
+                  evolution. It views the cosmos purely through a lens of
+                  scientific proof and discovery. Modern astronomy continuously
+                  updates its laws whenever brand new data is discovered.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Astrology Card -->
+          <div class="col-sm-6">
+            <div class="card">
+              <div class="card-body">
+                <h5
+                  class="card-title"
+                  style="
+                    color: var(--gold);
+                    font-family: &quot;Orbitron&quot;, sans-serif;
+                  "
+                >
+                  Astrology
+                </h5>
+                <p class="card-text">
+                  Astrology is an ancient divination system mapping cosmic
+                  alignments to human behavior. It claims the positions of
+                  planets at your birth dictate your destiny and life path.
+                  Practitioners create detailed horoscopes based on twelve
+                  symbolic zodiac constellations in space. It acts more as a
+                  psychological blueprint rather than a physical science
+                  framework. The core system relies heavily on ancient
+                  mythological traditions and early star charts. It deals
+                  entirely with archetypal energies, emotional patterns, and
+                  relationship predictions. Science officially rejects its
+                  mechanics, classifying the entire practice as a pseudoscience.
+                  It focuses on subjective personal meaning instead of
+                  verifiable empirical observation data. It ignores mechanical
+                  gravitational forces, focusing purely on symbolic connections
+                  instead. Millions still follow it daily for spiritual
+                  guidance, personal comfort, and motivation.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ================================================================
+     Ye teeno sections </main> se pehle paste karein
+     (Astronomy vs Astrology wale section ke baad)
+     ================================================================ -->
+
+      <!-- ===== Section 4: History of Astronomy (5 cards) ===== -->
+      <section class="split">
+        <div class="w-100">
+          <h1>History of Astronomy: Great Minds</h1>
+          <div class="row g-4">
+            <!-- Card 1: Aryabhata -->
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="card h-100 mini-card">
+                <img
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEEuf4gtHoq9yATc6m32AOzNW0_mOfp0QMIZ-LNC-32Q&s=10"
+                  class="card-img-top"
+                  alt="Aryabhata"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Aryabhata</h5>
+                  <span class="badge bg-warning text-dark mb-2">476-550</span>
+                  <p class="card-text">
+                    Proposed that the Earth is spherical and rotates on its own
+                    axis, which creates day and night.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Card 2: Copernicus -->
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="card h-100 mini-card">
+                <img
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzgwgagbCJyfij5NOdNfgGBY5xeXjV02fo4i9VAY3p_Q&s=10"
+                  class="card-img-top"
+                  alt="Nicolaus Copernicus"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Nicolaus Copernicus</h5>
+                  <span class="badge bg-warning text-dark mb-2">1473-1543</span>
+                  <p class="card-text">
+                    Introduced the Heliocentric Model: the Sun is at the center
+                    of the solar system and Earth orbits around it.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Card 3: Galileo -->
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="card h-100 mini-card">
+                <img
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9kD8FzEPn_ZrROHUXU3f5bRkzTHSA7bNfI1q-NPgBJA&s=10"
+                  class="card-img-top"
+                  alt="Galileo Galilei"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Galileo Galilei</h5>
+                  <span class="badge bg-warning text-dark mb-2">1564-1642</span>
+                  <p class="card-text">
+                    First to use a telescope for astronomy, discovering
+                    Jupiter's four largest moons and the phases of Venus.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Card 4: Kepler -->
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="card h-100 mini-card">
+                <img
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYHkKnyd-x1LQn5w7rkyAz_eTTL6jMzFuaNAnXiW3SlA&s=10"
+                  class="card-img-top"
+                  alt="Johannes Kepler"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Johannes Kepler</h5>
+                  <span class="badge bg-warning text-dark mb-2">1571-1630</span>
+                  <p class="card-text">
+                    Developed the 3 laws of planetary motion: planets move
+                    around the Sun in elliptical orbits, not perfect circles.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Card 5: Newton -->
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="card h-100 mini-card">
+                <img
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ--p8RTxNHUkgh-iknyjDrd56QS-hvQ4IoWvvHrkAdHw&s=10"
+                  class="card-img-top"
+                  alt="Isaac Newton"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Isaac Newton</h5>
+                  <span class="badge bg-warning text-dark mb-2">1643-1727</span>
+                  <p class="card-text">
+                    Formulated the laws of motion and universal gravitation,
+                    explaining how celestial movements are controlled.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===== Section 5: Evolution of Telescopes (paragraph + 3 cards) ===== -->
+      <section class="split">
+        <div class="w-100">
+          <h1>Evolution of Telescopes</h1>
+          <p>
+            From Galileo's small refracting telescope with only 3x
+            magnification, astronomy evolved drastically with the Hubble Space
+            Telescope. Today, the James Webb Space Telescope uses advanced
+            infrared technology to see the very first stars and galaxies ever
+            formed.
+          </p>
+          <div class="row g-4">
+            <!-- Card 1: Galileo's telescope -->
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="card h-100 mini-card">
+                <img
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWMLuUVqCKSwRYgaWXvCC6zAj5HoP_0bVNdy3S5ZAjxg&s=10"
+                  class="card-img-top"
+                  alt="Galileo's refracting telescope"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Galileo's Telescope</h5>
+                  <span class="badge bg-warning text-dark mb-2">1609</span>
+                  <p class="card-text">
+                    A small refracting telescope with only 3x magnification.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Card 2: Hubble -->
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="card h-100 mini-card">
+                <img
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbOlk0e38vs3Wkxpt3iAFGeUKKl3giLXq5j4jfOIZpYg&s"
+                  class="card-img-top"
+                  alt="Hubble Space Telescope in orbit"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Hubble Space Telescope</h5>
+                  <span class="badge bg-warning text-dark mb-2">1990</span>
+                  <p class="card-text">
+                    Launched above Earth's atmosphere for sharper views of
+                    space.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Card 3: JWST -->
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="card h-100 mini-card">
+                <img
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkJvslB3nK3G3owSr2biclsZWzJ6ezkJJ4TJZC-rXC7w&s=10"
+                  class="card-img-top"
+                  alt="James Webb Space Telescope"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">James Webb Telescope</h5>
+                  <span class="badge bg-warning text-dark mb-2">JWST</span>
+                  <p class="card-text">
+                    Uses infrared technology to peer to the edge of the
+                    universe.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===== Section 6: Branches of Astronomy (3 icon cards, no images) ===== -->
+      <section class="split">
+        <div class="w-100">
+          <h1>Branches of Astronomy</h1>
+          <div class="row g-4">
+            <!-- Card 1: Astrophysics -->
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="card h-100 mini-card text-center">
+                <div class="card-body">
+                  <i class="fas fa-atom fa-3x text-warning mb-3"></i>
+                  <h5 class="card-title">Astrophysics</h5>
+                  <p class="card-text">
+                    The study of the physical and chemical properties of stars,
+                    planets, and celestial bodies using the laws of physics.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Card 2: Cosmology -->
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="card h-100 mini-card text-center">
+                <div class="card-body">
+                  <i class="fas fa-infinity fa-3x text-warning mb-3"></i>
+                  <h5 class="card-title">Cosmology</h5>
+                  <p class="card-text">
+                    The scientific study of the universe's origin (the Big
+                    Bang), its continuous evolution, and its ultimate fate.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Card 3: Planetary Science -->
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="card h-100 mini-card text-center">
+                <div class="card-body">
+                  <i class="fas fa-globe fa-3x text-warning mb-3"></i>
+                  <h5 class="card-title">Planetary Science</h5>
+                  <p class="card-text">
+                    The study of the composition, dynamics, and atmospheres of
+                    planets, moons, asteroids, and comets.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+    </main>
+    <!-- ===== Footer ===== -->
+    <footer>
+      <div class="footer-grid">
+        <div>
+          <h4>Astronomy Explorer</h4>
+          <p>Explore the wonders of the universe.</p>
+        </div>
+        <div>
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="solar-system.html">Solar System</a></li>
+            <li><a href="stars.html">Stars</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Contact</h4>
+          <p>Email: info@astronomy.com</p>
+          <p>Karachi, Pakistan</p>
+        </div>
+        <div>
+          <h4>Follow Us</h4>
+          <a href="#"><i class="fab fa-facebook"></i> Facebook</a><br />
+          <a href="#"><i class="fab fa-instagram"></i> Instagram</a><br />
+          <a href="#"><i class="fab fa-youtube"></i> YouTube</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Astronomy Explorer. Images: NASA/ESA.</p>
+      </div>
+    </footer>
+    <script>
+      // Yeh code saare sections aur cards par ek saath animation laga dega
+      document.querySelectorAll("section, .card").forEach(function (element) {
+        element.setAttribute("data-aos", "fade-up");
+      });
+
+      // Iske baad AOS ko start karein
+      AOS.init({
+        duration: 30000, // Animation ki speed (1 second)
+        once: true, // Scroll karne par sirf ek baar animate ho
+      });
+    </script>
+      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+    <!-- Bootstrap JS (navbar toggle ke liye zaroori) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
